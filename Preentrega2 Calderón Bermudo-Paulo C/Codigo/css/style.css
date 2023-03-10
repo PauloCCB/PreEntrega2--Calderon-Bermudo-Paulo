@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+.inicial{
+    justify-content: right;
+    background-color: rgb(247, 204, 124);
+    text-align: center;
+    padding: 10px;
+}
+/*Header*/
+header{
+    background-color: beige;
+    padding-top: 5px;
+    width: 100%;
+    display: flex;
+
+
+}
+nav{
+    display: flex;
+    justify-content: end;
+}
+
+nav ul{
+    list-style-type: none;
+    font-family: Arial;
+}
+nav ul a{
+    text-decoration: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 40px;
+}
+header #prototipo{
+    width: 150px;
+    height: 80px;
+}
+
+
+
+#pie-de-pagina li{
+    list-style-type: none;
+}
+main{
+    text-align: center;
+    background-color: beige;
+}
+.cuadro-servicios{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    display:inline-block;
+    background-color: rgb(247, 204, 124);
+    padding: 10px;
+    margin: 20px;
+    overflow: visible;
+}
+.pie-de-pagina{
+    text-align: center;
+    background-color: beige;
+
+}
+section{
+    padding: 10px;
+}
+.titulo-secundario{
+    padding: 10px;
+}
+.nav_bar{
+    justify-content: end;
+}
+
+/*Margin es el espacio que hay entre los elementos continuos
+Padding es el espaciado interno*/
